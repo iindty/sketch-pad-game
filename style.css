@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: "Jersey 10", sans-serif;
+    color: #212121;
+}
+
+body {
+    background-color: #3a3a4c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+}
+
+#sketch-pad {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 514px;
+    height: 514px;
+    margin: 1rem 0;
+}
+
+.button {
+    font-size: 2rem;
+    margin: 1rem 0.5rem;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #212121;
+}
+
+.black-box {
+    background-color: black;
+}
